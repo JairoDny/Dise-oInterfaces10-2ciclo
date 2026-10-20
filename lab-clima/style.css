@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5; /* gris claro neutro */
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: #4b3f72; /* morado oscuro neutro */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+}
+
+/* Buscador */
+.buscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+select, button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #6a5acd; /* morado medio */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #3d2c8d; /* morado más intenso */
+}
+
+/* Mensajes de error */
+.error {
+  color: #b00020; /* rojo sobrio para errores */
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
+
+/* Resultados */
+#resultado {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  border-top: 4px solid #6a5acd; /* acento morado */
+}

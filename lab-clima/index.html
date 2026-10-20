@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App del Clima</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>ClimaPE</h1>
+    <p>Consulta el clima actual en distintas ciudades del país con un solo click, fácil, rápido y confiable.</p>
+  </header>
+
+  <main>
+    <section class="buscador">
+      <select id="selectorCiudad">
+        <option value="lima">Lima</option>
+        <option value="cusco">Cusco</option>
+        <option value="arequipa">Arequipa</option>
+        <option value="trujillo">Trujillo</option>
+        <option value="piura">Piura</option>
+        <option value="iquitos">Iquitos</option>
+      </select>
+
+      <button id="btnConsultar">Ver clima</button>
+    </section>
+
+    <p id="mensajeError" class="error"></p>
+
+    <section id="resultado"></section>
+  </main>
+
+  <script src="appcomplemento.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
